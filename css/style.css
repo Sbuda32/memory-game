@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-image: url("../images/large_web.jpg");
+}
+
+.container{
+    position: absolute;
+    top: 11%;
+    left: 27%;
+}
+
+canvas{
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+}
