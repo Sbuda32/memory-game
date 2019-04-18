@@ -20,10 +20,17 @@ $(function(){
     function createNewBoard(){
 
         tilesFlipped = 0;
-        var output = '';
-        console.log()
+        var $output = '';
+       
         memoryArray.shuffleMemoryArray();
-        console.log(memoryArray);
+
+        for(let i = 0; i < memoryArray.length; i++){
+
+            $output += "<div id='tile_' + i></div>";
+        }
+        
+       /// console.log($output);
+        $('.container').append($output);
     }
 
     createNewBoard();

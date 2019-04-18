@@ -1,16 +1,32 @@
 body{
+    
     margin: 0;
     background-image: url("../images/large_web.jpg");
 }
 
 .container{
+    
     position: absolute;
     top: 11%;
     left: 27%;
+    width: 500px;
+    height: 500px;
+    border: 2px solid darkseagreen;
 }
 
-canvas{
+/**canvas{
+    
     border: 2px solid red;
     width: 500px;
     height: 500px;
+}*/
+
+.container > div {
+    
+    width: 112px;
+    height: 113px;
+    background-color: black;
+    float: left;
+    padding: 2px 2px;
+    margin: 3px;
 }
