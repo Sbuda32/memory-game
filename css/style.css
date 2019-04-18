@@ -25,8 +25,16 @@ body{
     
     width: 112px;
     height: 113px;
-    background-color: black;
     float: left;
+    border: 0.5px solid black;
     padding: 2px 2px;
     margin: 3px;
+    background-image: url('../images/Handmade-Solar-Sy');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bImage{
+
+    background-image: url('/images/ring.png')
 }

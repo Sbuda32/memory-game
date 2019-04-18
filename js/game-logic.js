@@ -25,8 +25,8 @@ $(function(){
         memoryArray.shuffleMemoryArray();
 
         for(let i = 0; i < memoryArray.length; i++){
-
-            $output += "<div id='tile_' + i></div>";
+            console.log(i);
+            $output += "<div id='tile_'+i></div>";
         }
         
        /// console.log($output);
