@@ -21,7 +21,7 @@ body{
     height: 500px;
 }*/
 
-.container > div {
+.container > div.frontSide {
     
     width: 112px;
     height: 113px;
@@ -29,9 +29,20 @@ body{
     border: 0.5px solid black;
     padding: 2px 2px;
     margin: 3px;
-    background-image: url('../images/Handmade-Solar-Sy');
+    background-image: url('../images/Handmade-Solar-System-Bracelet-The-Eight-Planets.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.backSide {
+
+    width: 112px;
+    height: 113px;
+    float: left;
+    border: 0.5px solid black;
+    padding: 2px 2px;
+    margin: 3px;
+
 }
 
 .bImage{
