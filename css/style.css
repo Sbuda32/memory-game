@@ -2,13 +2,15 @@ body{
     
     margin: 0;
     background-image: url("../images/large_web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
     
     position: absolute;
-    top: 11%;
-    left: 27%;
+    top: 17%;
+    left: 34%;
     width: 500px;
     height: 500px;
     border: 2px solid darkseagreen;
